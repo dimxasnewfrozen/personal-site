@@ -1,7 +1,66 @@
 baseurl = "https://xenodochial-engelbart-5db29b.netlify.com/"
-title = "Kenny Day"
+title = "Home"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Kenny Day"
+googleAnalytics = "XXX"
+disqusShortname = "XXX"
 
-theme = "hyde"
+[Privacy]
 
-[params]
-  layoutReverse = true
+[Privacy.disqus]
+    disable = true
+
+[Privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+
+[Author]
+    name = "Kenny Day"
+    profile = "https://google.com/+XXX"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Kenny Day"
+    description = "Fullstack Software Engineer"
+    github = "https://github.com/XXX"
+    linkedin = "https://linkedin.com/in/XXX/"
+    twitter = "https://twitter.com/XXX"
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = true
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+    exponeaJsUrl = ""
+    exponeaTarget = ""
+    exponeaToken = ""
+    exponeaTrackVisits = false
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about"
+    weight = 4
