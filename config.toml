@@ -4,4 +4,4 @@ title = "Kenny Day"
 theme = "hyde"
 
 [params]
-  themeColor = "theme-base-09"
+  layoutReverse = true
