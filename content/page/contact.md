@@ -1,8 +1,10 @@
-+++ 
-draft = false
-date = 2018-09-08T20:16:17-04:00
-title = "Contact"
-slug = "Something about contact" 
-tags = []
-categories = []
 +++
+title = "Contact"
+date = 2015-04-03T02:13:50Z
+author = "Kenny"
+description = "Easiest way to contact me..."
++++
+
+## Connect
+
+Just hit me up on LinkedIn or Twitter.
