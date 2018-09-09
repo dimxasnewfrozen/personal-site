@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://xenodochial-engelbart-5db29b.netlify.com/"
 title = "Kenny Day"
 
 theme = "hyde"
